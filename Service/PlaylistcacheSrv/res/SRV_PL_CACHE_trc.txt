@@ -1,0 +1,27 @@
+[APP NAME] = SRV_PL_CACHE
+[SCOPE] = PLUTO
+[MODULE] = MOD_MMI_MEDIA_APP
+
+#start trace
+
+TRC_MSG(PLC_SRV_INSTANCE_START_RUN,"[playlist cache] instance [%d] start to run at [%d], current state is [%d]")
+TRC_MSG(PLC_SRV_INSTANCE_INIT,"[playlist cache] init start at [%d], init finish at [%d]")
+TRC_MSG(PLC_SRV_INSTANCE_FINISH_RUN,"[playlist cache] instance [%d] job total tick is[%d], current state is [%d]")
+TRC_MSG(PLC_SRV_SET_STATE,"[playlist cache] instance [%d] set state from [%d] to [%d]")
+TRC_MSG(PLC_SRV_ADD_JOB,"[playlist cache] instance [%d] add job [%d], queue head [%d], queue tail [%d]")
+TRC_MSG(PLC_SRV_REMOVE_JOB,"[playlist cache] instance [%d] remove job [%d], queue head [%d], queue tail [%d]")
+TRC_MSG(PLC_SRV_EXECUTE_JOB,"[playlist cache] instance [%d] execute job [%d]")
+TRC_MSG(PLC_SRV_ADD_WORK,"[playlist cache] instance [%d] add work [%d]")
+TRC_MSG(PLC_SRV_REMOVE_WORK,"[playlist cache] instance [%d] remove work [%d]")
+TRC_MSG(PLC_SRV_CANCEL_WORK,"[playlist cache] instance [%d] cancel work [%d]")
+TRC_MSG(PLC_SRV_SUSPEND_WORK,"[playlist cache] instance [%d] suspend work [%d]")
+TRC_MSG(PLC_SRV_RESUME_WORK,"[playlist cache] instance [%d] resume work [%d]")
+TRC_MSG(PLC_SRV_JOB_CHECK_IS_FIRST_FILE,"[playlist cache] check is first file returns [%d]")
+TRC_MSG(PLC_SRV_JOB_ADD_CACHE,"[playlist cache] add cache returns [%d]")
+TRC_MSG(PLC_SRV_JOB_ADD_CACHE_PREV_FOLDER,"[playlist cache] add cache previous folder returns [%d]")
+TRC_MSG(PLC_SRV_JOB_GET_PREV_FOLDER,"[playlist cache] get previous media file folder returns [%d]")
+TRC_MSG(PLC_SRV_JOB_ADD_CACHE_TEMP,"[playlist cache] add cache temp returns [%d]")
+TRC_MSG(PLC_SRV_JOB_GET_STACK_INFO,"[playlist cache] get stack info")
+TRC_MSG(PLC_SRV_JOB_CACHE_PREV_FOLDER_TEMP,"[playlist cache] cache previous folder temp returns[%d]")
+
+#end trace

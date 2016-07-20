@@ -1,0 +1,10 @@
+[APP NAME] = Megaphone
+[SCOPE] = PLUTO
+[MODULE] = MOD_MMI_MEDIA_APP
+
+#start trace
+
+TRC_MSG(MMI_MEGAPHONE_LAUNCH,"[MEGAPHONE] trace=[%d]")
+TRC_MSG(MMI_MEGAPHONE_PROC,"[MEGAPHONE] mmi_megaphone_proc, evt_id=[%d]")
+
+#end trace

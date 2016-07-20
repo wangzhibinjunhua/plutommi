@@ -1,0 +1,10 @@
+[APP NAME] = Line in
+[SCOPE] = PLUTO
+[MODULE] = MOD_MMI_MEDIA_APP
+
+#start trace
+
+TRC_MSG(MMI_LINEIN_LAUNCH,"[LINEIN] trace=[%d]")
+TRC_MSG(MMI_LINEIN_PROC,"[LINEIN] mmi_linein_proc, evt_id=[%d]")
+
+#end trace
